@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run unit tests (Cart y Product only)
-        run: npx jest src/__tests__/unit/Cart.test.jsx src/__tests__/unit/Product.test.jsx
+        run: npx jest 
 
       - name: Run Cypress tests
         run: npm run cypress:run
